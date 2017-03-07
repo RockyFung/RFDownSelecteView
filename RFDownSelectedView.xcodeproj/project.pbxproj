@@ -15,6 +15,7 @@
 		5C56D8591E6D690F00366FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C56D8571E6D690F00366FAE /* LaunchScreen.storyboard */; };
 		5C56D8641E6D690F00366FAE /* RFDownSelectedViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56D8631E6D690F00366FAE /* RFDownSelectedViewTests.m */; };
 		5C56D86F1E6D690F00366FAE /* RFDownSelectedViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56D86E1E6D690F00366FAE /* RFDownSelectedViewUITests.m */; };
+		5C56D8851E6D6DCF00366FAE /* RFDownSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56D8841E6D6DCF00366FAE /* RFDownSelectedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5C56D86A1E6D690F00366FAE /* RFDownSelectedViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFDownSelectedViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C56D86E1E6D690F00366FAE /* RFDownSelectedViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFDownSelectedViewUITests.m; sourceTree = "<group>"; };
 		5C56D8701E6D690F00366FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C56D8831E6D6DCF00366FAE /* RFDownSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFDownSelectedView.h; sourceTree = "<group>"; };
+		5C56D8841E6D6DCF00366FAE /* RFDownSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFDownSelectedView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5C56D8481E6D690F00366FAE /* RFDownSelectedView */ = {
 			isa = PBXGroup;
 			children = (
+				5C56D87C1E6D6A9100366FAE /* RFDownSelectedView */,
 				5C56D84C1E6D690F00366FAE /* AppDelegate.h */,
 				5C56D84D1E6D690F00366FAE /* AppDelegate.m */,
 				5C56D84F1E6D690F00366FAE /* ViewController.h */,
@@ -138,6 +142,15 @@
 				5C56D8701E6D690F00366FAE /* Info.plist */,
 			);
 			path = RFDownSelectedViewUITests;
+			sourceTree = "<group>";
+		};
+		5C56D87C1E6D6A9100366FAE /* RFDownSelectedView */ = {
+			isa = PBXGroup;
+			children = (
+				5C56D8831E6D6DCF00366FAE /* RFDownSelectedView.h */,
+				5C56D8841E6D6DCF00366FAE /* RFDownSelectedView.m */,
+			);
+			path = RFDownSelectedView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				5C56D8511E6D690F00366FAE /* ViewController.m in Sources */,
 				5C56D84E1E6D690F00366FAE /* AppDelegate.m in Sources */,
 				5C56D84B1E6D690F00366FAE /* main.m in Sources */,
+				5C56D8851E6D6DCF00366FAE /* RFDownSelectedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
